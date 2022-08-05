@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "34e2dc8b-3188-4287-b490-72b5b9fdf7f4",
+  "alias": "PropertyPaneWebPartWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Other" },
+    "title": { "default": "Product Specifications" },
+    "description": { "default": "PropertyPaneWebPart description" },
+    "officeFabricIconFontName": "ShoppingCart",
+    "properties": {
+      "description": "Please Enter the Pane Description",
+      "productname": "Please Enter the Product Name",
+      "productdescription": "Please Enter the Product Description",
+      "productcost": 0,
+      "productquantity": 0,
+      "billamount": 0,
+      "discountamount": 0,
+      "netamount": 0,
+      "currenttime": "Not Updated",
+      "iscertified": "Not Selected",
+      "choice": "Not Selected"
+      
+    }
+  }]
+}

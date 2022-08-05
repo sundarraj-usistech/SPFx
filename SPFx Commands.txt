@@ -1,0 +1,19 @@
+1. for installing node package dependancies: npm install (one time installation)
+
+2. for installing sharepoint package dependancies: yo @microsoft/sharepoint (for every project)
+
+3. for complining/building: gulp build (for every project)
+
+4. for minifying the js scripts: gulp bundle (for every project)
+
+5. for executing/serving: gulp serve (for every project)
+
+6. for locking the dependancies brefore installing other packages: npm shrinkwrap (for every project)
+
+7. for installing sp-pnp-js Library: npm install sp-pnp-js --save (one time installation)
+
+8. for exporting for the production environment: gulp bundle --ship
+
+9. for exporting for the production environment: gulp package-solution --ship
+
+10. 
