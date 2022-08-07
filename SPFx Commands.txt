@@ -16,4 +16,12 @@
 
 9. for exporting for the production environment: gulp package-solution --ship
 
-10. 
+10. for listing the npm packages: npm list -g --depth=0
+
+11. for installing node packages: npm install
+
+12. for installing yeoman generator: npm install -g yo@(version)
+
+13. for installing gulp javascript: npm install -g gulp@(version)
+
+14. for installing microsoft sharepoint generator: npm install -g @microsoft/generator-sharepoint@(version)
