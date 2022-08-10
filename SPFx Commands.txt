@@ -25,3 +25,5 @@
 13. for installing gulp javascript: npm install -g gulp@(version)
 
 14. for installing microsoft sharepoint generator: npm install -g @microsoft/generator-sharepoint@(version)
+
+15. for linking the user created library in the tenant: npm link (project name)
