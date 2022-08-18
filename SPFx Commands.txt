@@ -26,11 +26,14 @@
 
 14. for linking the user created library in the tenant: npm link (project name)
 
-15. for installing jQuery: npm install --save jquery
+15. for installing jQuery: npm install jquery
 
-16. for installing types of jQuery: npm install --save @types/jquery
+16. for installing jQueryUI: npm install jqueryui
 
-17. for installing jQuery and saving it in the project folder: npm install @types/jquery --save
+17. for installing jQuery and saving it in the project folder: npm install @types/jquery --save-dev
 
-18. for installing jQuery-UI and saving it in the project folder: npm install @types/jqueryui --save
+18. for installing jQuery-UI and saving it in the project folder: npm install @types/jqueryui --save-dev
+
+19. for installing graph and saving it in the project folder: npm install @microsoft/microsoft-graph-types --save-dev
+
 
