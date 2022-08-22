@@ -16,7 +16,7 @@
 
 9. for minifying the js scripts: gulp bundle (for every project) not required seperately because it is done when doing gulp serve
 
-10. for exporting for the production environment: gulp bundle --ship
+10. for exporting for the production environment: gulp build --ship
 
 11. for exporting for the production environment: gulp package-solution --ship
 
